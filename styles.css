@@ -1,0 +1,44 @@
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 80%; /* Ancho de la tabla */
+    margin: 20px auto; /* Centrar la tabla horizontalmente */
+}
+
+/* Estilos para las celdas */
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center; /* Alineación del texto al centro */
+    vertical-align: middle; /* Alineación vertical al centro */
+}
+
+/* Estilos para el texto verde */
+.verde {
+    color: green;
+}
+
+/* Estilos para el texto azul */
+.azul {
+    color: blue;
+}
+
+/* Estilos para las estrofas */
+.estrofa {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para las imágenes */
+img.simbolo1, img.simbolo2 { /* Modificamos las clases para las imágenes */
+    width: 150px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantener la proporción de la imagen */
+    display: block; /* Hacer que las imágenes sean bloques para centrarlas correctamente */
+    margin: 0 auto 10px; /* Centrar las imágenes horizontalmente y agregar un espacio inferior */
+    border: 2px solid black; /* Añadir un borde a las imágenes */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Agregar una sombra */
+}
+
